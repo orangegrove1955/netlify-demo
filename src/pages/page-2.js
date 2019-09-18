@@ -9,6 +9,9 @@ const SecondPage = () => (
     <SEO title="Page two" />
     <h1>Hi from the second page</h1>
     <p>Welcome to page 2</p>
+    <p>
+      Move to the <Link to="/page-3/">third page</Link>
+    </p>
     <Link to="/">Go back to the homepage</Link>
   </Layout>
 )
